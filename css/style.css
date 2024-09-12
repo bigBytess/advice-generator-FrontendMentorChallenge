@@ -1,0 +1,125 @@
+/* Reset default styles */
+body,
+h1,
+h2,
+h3,
+p,
+ul,
+li,
+form,
+input,
+textarea,
+button {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    background-color: #f8f9fa;
+    color: #333;
+}
+
+header {
+    background: #007bff;
+    color: #fff;
+    padding: 20px 0;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+}
+
+nav ul li {
+    margin: 0 15px;
+}
+
+nav ul li a {
+    color: #fff;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.hero {
+    text-align: center;
+    padding: 50px;
+    background: #0056b3;
+    color: #fff;
+}
+
+.introduction,
+.projects-preview,
+.about-me,
+.projects,
+.contact {
+    padding: 20px;
+    margin: 0 auto;
+    max-width: 800px;
+}
+
+.projects-preview {
+    display: flex;
+    justify-content: space-around;
+}
+
+.project-card {
+    background: #fff;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    padding: 15px;
+    text-align: center;
+    width: 30%;
+}
+
+.project-card img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 5px;
+}
+
+.project-card a {
+    color: #007bff;
+    text-decoration: none;
+}
+
+.contact form {
+    display: flex;
+    flex-direction: column;
+}
+
+.contact form label {
+    margin: 10px 0 5px;
+}
+
+.contact form input,
+.contact form textarea {
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+}
+
+.contact form button {
+    padding: 10px;
+    background: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+footer {
+    background: #007bff;
+    color: #fff;
+    text-align: center;
+    padding: 10px 0;
+    position: fixed;
+    width: 100%;
+    bottom: 0;
+}
+
+
